@@ -1,12 +1,8 @@
-
-import './App.css';
-
+import React, { useState } from 'react';
+import data from './data';
+import List from './List';
 function App() {
-  return (
-    <div className="App">
-      <h1>Birthday</h1>
-    </div>
-  );
+  return <h2>reminder project setup</h2>;
 }
 
 export default App;
